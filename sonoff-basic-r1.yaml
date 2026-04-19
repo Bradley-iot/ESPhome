@@ -19,11 +19,11 @@ ota:
 
 wifi:
   ssid: "Bradley-IOT"
-  password: "kierann3t$"
+  password: "Wifi_pwd"
   manual_ip:
     static_ip: 192.168.21.52
-    gateway: 192.168.21.1
-    subnet: 255.255.255.0
+    gateway: "GW"
+    subnet: "SN"
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
